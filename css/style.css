@@ -1,0 +1,217 @@
+html
+{ height: 100%;}
+	
+li{
+text-decoration:none;
+}
+
+*
+{ margin: 0;
+  padding: 0;
+ }
+body
+{ font: normal 100% Segoe UI;
+  background-color: #dfe3ee;
+  color: black;
+}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;
+  font-size: 100% }
+
+img
+{ border: 1px;}
+
+h1, h2, h3, h4
+{ font: normal 175% Segoe UI;
+  color: black;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;
+  padding: 5px 0 0 0;}
+
+a, a:hover
+{ background: transparent;
+  outline: none;
+  text-decoration: none;
+  color: #03AFF7;
+}
+
+a:hover
+{ text-decoration: underline;}
+
+#main, #header, #topic, #site_content
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ background: transparent;}
+
+#header
+{ width: 100%;
+  padding-bottom:20px;
+  padding-top:20px;
+  background: #3b5998;
+  }
+
+#topic
+{ width: 1175px;
+  position: relative;
+  text-align: center; 
+  background: transparent;}
+  
+#topic H1
+{ font: normal 300% Segoe UI;
+  color: #1D1D1D;
+  letter-spacing: -3px;}
+  
+span
+{ color:white;
+  padding-bottom: 10px;}
+.part{
+	  color:white;
+	  margin-left:-950px;
+  }
+  
+.part2{
+	color:white;
+    float:right; 
+	margin-top:-70px;
+	margin-right:40px;
+	}
+ 
+  #site_content
+{ 
+  overflow: hidden;
+  margin-top:40px;
+  margin-left:200px;
+  } 
+  
+.sidebar_container
+{
+  float: right;
+  width: 450px;
+  margin-top:40px;
+  line-height:40px;
+
+  }
+  
+.sidebar_container2
+{ float: left;
+  width: 455px;
+  margin-top:50px;
+  margin-left:110px;
+ 
+  }
+
+.brand{
+	border-top:solid;
+	width:420px;
+	
+}
+.sidebar
+{ float: left;
+  width: 221px;
+  padding-left: 5px;
+  margin-bottom: 10px;}
+  .sidebar2
+{ float: left;
+  width: 318px;
+  margin-bottom: 10px;}
+
+.sidebar_item
+{ font: normal 100% Segoe UI;
+  width: 318px;
+  font-size:normal;
+  }
+  .sidebar_item2
+{ font: normal 100% Segoe UI;
+  padding: 0 15px 0 0;
+  width: 558px;
+  margin-right:4px;
+  font-size:normal;
+  }
+
+.sidebar h4
+{ font-size: 125%;
+  color: #000;}
+
+.sidebar ul li, .sidebar ul li.selected
+{ list-style: none; 
+  margin: 15px 0;
+  padding: 0;}
+
+.sidebar li.selected, .sidebar li:hover
+{ color: #5D5D5D;
+  text-decoration: none;} 
+
+
+.createform{
+	color:black;
+	padding-bottom:10px;
+
+}
+.account{
+	height:30px;
+	width:400px;
+	background-color:white;
+	color:black;
+	font-size:15px;
+	border-radius:4px;
+
+}
+.names{
+	height:30px;
+	width:198px;
+	background-color:white;
+	color:black;
+	font-size:15px;
+	border-radius:4px;	
+}
+
+.signin{
+	height:30px;
+	width:140px;
+	background-color:white;
+	color:black;
+	font-size:15px;
+	border-radius:4px;
+
+}
+	
+.create{
+	width:150px;
+	height:35px;
+	background-color:green;
+	border:0px;
+	color:white;
+	font-size:16px;
+    border-radius:4px;
+
+}
+.create:hover	{
+	width:150px;
+	height:35px;
+	background-color:#3b5998;
+	border-radius:4px;
+	border:0px;
+}
+
+.submit{
+	width:70px;
+	height:30px;
+	background-color:#3b5998;
+	border:0px;
+	color:white;
+	font-size:16px;
+	box-shadow:4px 4px 10px 4px;
+
+}
+
+.submit:hover{
+	width:70px;
+	height:30px;
+	background-color:thistle;
+}
+
+
